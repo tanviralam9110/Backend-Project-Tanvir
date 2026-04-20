@@ -1,0 +1,15 @@
+
+  spring:
+    datasource:
+      url: jdbc:postgresql://localhost:5432/TanvirDataBase
+      username: postgres
+      password: Tanvir@9110
+
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+
+    redis:
+      host: localhost
+      port: 6379
