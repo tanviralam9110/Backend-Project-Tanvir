@@ -1,4 +1,4 @@
-package com.Backend.Assignment.Tanvir.Entity;
+package com.Backend.Assignment.Tanvir.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -7,12 +7,11 @@ import lombok.Data;
 
 @Entity
 @Data
-public class User {
+public class Bot {
 
     @Id
     @GeneratedValue
     private Long id;
-    private String username;
-    private boolean isPremium;
+    private String name;
+    private String personaDescription;
 }
-
